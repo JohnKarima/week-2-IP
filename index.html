@@ -5,11 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akan Calculator</title>
   <link rel="stylesheet" href="/css/styles.css">
-  <!-- <link rel="stylesheet" href="/css/bootstrap.css"> -->
 </head>
 <body>
   <form>
-    <div class="form-group">
+   <div class="form-group">
       <label for="year">Year:</label>
       <input type="number" class="form-control" id="year">
     </div>
@@ -21,41 +20,11 @@
       <label for="day">Day:</label>
       <input type="number" class="form-control" id="day">
     </div>
-
-
-    <!-- <div class="form-group">
-      <label for="month">Gender</label><br>
-      <div class="form-check-inline">
-        <label class="form-check-label">
-          <input type="radio" class="form-check-input" name="gender" id="male">&nbsp; Male 
-        </label>
-      </div>
-      <div class="form-check-inline">
-        <label class="form-check-label">
-          <input type="radio" class="form-check-input" name="gender" id="female">&nbsp; Female 
-        </label>
-      </div> -->
-
 <div id="gender">
-  <!-- <input type="radio" id="r1" name="rate" value="Fixed Rate"> Fixed Rate -->
   <input type="radio" id="male" name="gender" value="male"> Male
   <input type="radio" id="female" name="gender" value="female" checked="checked"> Female  
-</div>
-
-
-    <!-- <div>
-      <select id="gender">
-      <option value="male">Male</option>
-      <option value="female">Female</option>
-    </select> -->
-
-    <!-- <input type="radio"  name="gender" value="male">
-  <label for="male">Male</label><br>
-  <input type="radio"  name="gender" value="female">
-  <label for="female">Female</label><br> -->
-<!-- </div> -->
-    
-    <button type="submit" class="btn btn-default" onclick="addMachine()">Submit</button>
+</div> 
+    <button type="submit" class="btn btn-default" onclick="zeller()">Submit</button>
   </form>
   <script src="/js/scripts.js"></script>
 </body>
