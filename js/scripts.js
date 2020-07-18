@@ -6,14 +6,14 @@ function addMachine(){
   var year = document.getElementById("year").value;
   var month = parseInt(document.getElementById("month").value);
   var day = parseInt(document.getElementById("day").value);
-  var cc = parseInt(year.slice(0,2));
-  var yy = parseInt(year.slice(2,4));
+  var centDigs = parseInt(year.slice(0,2));
+  var yearDigs = parseInt(year.slice(2,4));
 
   if (day<1 || day > 31){
     alert("Invalid Date")
   }if (month <1 || month > 12){
     alert("Invalid Month")}
-  }
+  
   
 
   // alert(cc)
@@ -23,8 +23,10 @@ function addMachine(){
 
 
 
-  // (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
+  (dayOfWeek) = ( ( (centDigs/4) -2*centDigs-1) + ((5*yearDigs/4) ) + ((26*(month+1)/10)) + day ) % 7
 
+  alert(dayOfWeek);
+  }
   //alert(year + month + day)}
 
 //   var answerCalc = numero1 + numero2;
