@@ -8,6 +8,9 @@ function addMachine(){
   var day = parseInt(document.getElementById("day").value);
   var centDigs = parseInt(year.slice(0,2));
   var yearDigs = parseInt(year.slice(2,4));
+  var gender = document.getElementById("gender").value
+
+  alert(gender)
 
   if (day<1 || day > 31){
     alert("Invalid Date")
@@ -23,5 +26,7 @@ function addMachine(){
 
   (dayOfWeek) = ( ( (centDigs/4) -2*centDigs-1) + ((5*yearDigs/4) ) + ((26*(month+1)/10)) + day ) % 7
 
-  alert(dayOfWeek);
+  // alert(dayOfWeek);
+
+  
   }
