@@ -15,7 +15,7 @@ function addMachine(){
   var yearDigs = parseInt(year.slice(2,4));
   var gender = document.getElementById("gender").value
 
-  //alert(gender)
+  // alert(gender)
 
   if (day<1 || day > 31){
     alert("Invalid Date")
@@ -28,15 +28,30 @@ function addMachine(){
 
   var useableIndex= Math.floor(dayOfWeek);
 
-
  //alert(useableIndex);
 
 //alert(daysOfTheWeek[0])
 
+// if (gender === male){
+//   alert("Male")
+// }
 
-if (useableIndex === 2){
+
+ if (useableIndex === 0){
+   alert(daysOfTheWeek[useableIndex])
+  //  alert(akanMale[useableIndex])
+ } else if(useableIndex === 1){
+   alert(daysOfTheWeek[useableIndex])
+ }else if(useableIndex === 2){
   alert(daysOfTheWeek[useableIndex])
-  alert(akanMale[useableIndex])
+}else if(useableIndex === 3){
+  alert(daysOfTheWeek[useableIndex])
+}else if(useableIndex === 4){
+  alert(daysOfTheWeek[useableIndex])
+}else if(useableIndex === 5){
+  alert(daysOfTheWeek[useableIndex])
+}else if(useableIndex === 6){
+  alert(daysOfTheWeek[useableIndex])
 }
 
 
