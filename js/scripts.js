@@ -13,9 +13,19 @@ function addMachine(){
   var day = parseInt(document.getElementById("day").value);
   var centDigs = parseInt(year.slice(0,2));
   var yearDigs = parseInt(year.slice(2,4));
-  var gender = document.getElementById("gender").value
+  // var gender = document.getElementById("gender").value
+  // var gender = document.getElementsByName('gender');
+  var gender = document.querySelector('input[name="gender"]:checked').value;
 
-  // alert(gender)
+
+//   function getGender(){
+//     if(genders[0].checked == true)
+//     var gender = "male";
+//     alert(gender)
+//   }
+// getGender();
+
+  //alert(gender)
 
   if (day<1 || day > 31){
     alert("Invalid Date")
@@ -28,6 +38,74 @@ function addMachine(){
 
   var useableIndex= Math.floor(dayOfWeek);
 
+
+
+  // if (gender.value = "male" && useableIndex === 0){
+  //   alert(akanMale[useableIndex])
+  //   alert(daysOfTheWeek[useableIndex])
+  // }else if (gender.value = "male" && useableIndex === 1){
+  //   alert(akanMale[useableIndex])
+  //   alert(daysOfTheWeek[useableIndex])
+  // }else if (gender.value = "male" && useableIndex === 2){
+  //   alert(akanMale[useableIndex])
+  //   alert(daysOfTheWeek[useableIndex])
+  // }else if (gender.value = "male" && useableIndex === 3){
+  //   alert(akanMale[useableIndex])
+  //   alert(daysOfTheWeek[useableIndex])
+  // }else if (gender.value = "male" && useableIndex === 4){
+  //   alert(akanMale[useableIndex])
+  //   alert(daysOfTheWeek[useableIndex])
+  // }else if (gender.value = "male" && useableIndex === 5){
+  //   alert(akanMale[useableIndex])
+  //   alert(daysOfTheWeek[useableIndex])
+  // }else if (gender.value = "male" && useableIndex === 6){
+  //   alert(akanMale[useableIndex])
+  //   alert(daysOfTheWeek[useableIndex])
+  // }
+
+
+  // if (gender.value = "female" && useableIndex === 0){
+  //   alert(akanFemale[useableIndex])
+  //   alert(daysOfTheWeek[useableIndex])
+  // }else if (gender.value = "female" && useableIndex === 1){
+  //   alert(akanFemale[useableIndex])
+  //   alert(daysOfTheWeek[useableIndex])
+  // }else if (gender.value = "female" && useableIndex === 2){
+  //   alert(akanFemale[useableIndex])
+  //   alert(daysOfTheWeek[useableIndex])
+  // }else if (gender.value = "female" && useableIndex === 3){
+  //   alert(akanFemale[useableIndex])
+  //   alert(daysOfTheWeek[useableIndex])
+  // }else if (gender.value = "female" && useableIndex === 4){
+  //   alert(akanFemale[useableIndex])
+  //   alert(daysOfTheWeek[useableIndex])
+  // }else if (gender.value = "female" && useableIndex === 5){
+  //   alert(akanFemale[useableIndex])
+  //   alert(daysOfTheWeek[useableIndex])
+  // }else if (gender.value = "female" && useableIndex === 6){
+  //   alert(akanFemale[useableIndex])
+  //   alert(daysOfTheWeek[useableIndex])
+  // }
+   // function getGender(){
+  //   var genders = document.getElementsByName("gender");
+  //   if(genders[0].checked == true){
+  //     var gender = "male";
+  //   }
+  //   else if(genders[1].checked == true){
+  //     var gender = "female";
+  //   }
+  //   else{
+  //     return false;
+
+  // if ( gender === male){
+  //   alert(akanMale[useableIndex])
+  // }
+
+  // if (useableIndex === 2 && gender === male){
+  //   alert(daysOfTheWeek[useableIndex])
+  //   alert(akanMale[useableIndex])
+  // }
+  
  //alert(useableIndex);
 
 //alert(daysOfTheWeek[0])
@@ -35,24 +113,87 @@ function addMachine(){
 // if (gender === male){
 //   alert("Male")
 // }
-
-
- if (useableIndex === 0){
-   alert(daysOfTheWeek[useableIndex])
-  //  alert(akanMale[useableIndex])
- } else if(useableIndex === 1){
-   alert(daysOfTheWeek[useableIndex])
- }else if(useableIndex === 2){
-  alert(daysOfTheWeek[useableIndex])
-}else if(useableIndex === 3){
-  alert(daysOfTheWeek[useableIndex])
-}else if(useableIndex === 4){
-  alert(daysOfTheWeek[useableIndex])
-}else if(useableIndex === 5){
-  alert(daysOfTheWeek[useableIndex])
-}else if(useableIndex === 6){
-  alert(daysOfTheWeek[useableIndex])
+switch(gender){
+  case "male":
+    if (useableIndex == 0){
+      alert(akanMale[useableIndex])
+      alert(daysOfTheWeek[useableIndex])
+    }
+    else if(useableIndex == 1){
+      alert(akanMale[useableIndex])
+      alert(daysOfTheWeek[useableIndex])
+    }
+    else if(useableIndex == 2){
+      alert(akanMale[useableIndex])
+      alert(daysOfTheWeek[useableIndex])
+    }
+    else if(useableIndex == 3){
+      alert(akanMale[useableIndex])
+      alert(daysOfTheWeek[useableIndex])
+    }
+    else if(useableIndex == 4){
+      alert(akanMale[useableIndex])
+      alert(daysOfTheWeek[useableIndex])
+    }
+    else if(useableIndex == 5){
+      alert(akanMale[useableIndex])
+      alert(daysOfTheWeek[useableIndex])
+    }
+    else if(useableIndex == 6){
+      alert(akanMale[useableIndex])
+      alert(daysOfTheWeek[useableIndex])
+    }
+  break;
+  case "female":
+    if (useableIndex == 0){
+      alert(akanFemale[useableIndex])
+      alert(daysOfTheWeek[useableIndex])
+    }
+    else if(useableIndex == 1){
+      alert(akanFemale[useableIndex])
+      alert(daysOfTheWeek[useableIndex])
+    }
+    else if(useableIndex == 2){
+      alert(akanFemale[useableIndex])
+      alert(daysOfTheWeek[useableIndex])
+    }
+    else if(useableIndex == 3){
+      alert(akanFemale[useableIndex])
+      alert(daysOfTheWeek[useableIndex])
+    }
+    else if(useableIndex == 4){
+      alert(akanFemale[useableIndex])
+      alert(daysOfTheWeek[useableIndex])
+    }
+    else if(useableIndex == 5){
+      alert(akanFemale[useableIndex])
+      alert(daysOfTheWeek[useableIndex])
+    }
+    else if(useableIndex == 6){
+      alert(akanFemale[useableIndex])
+      alert(daysOfTheWeek[useableIndex])
+    }
+  break
+  default:
+        
 }
+
+//  if (useableIndex === 0){
+//    alert(daysOfTheWeek[useableIndex])
+//   //  alert(akanMale[useableIndex])
+//  } else if(useableIndex === 1){
+//    alert(daysOfTheWeek[useableIndex])
+//  }else if(useableIndex === 2){
+//   alert(daysOfTheWeek[useableIndex])
+// }else if(useableIndex === 3){
+//   alert(daysOfTheWeek[useableIndex])
+// }else if(useableIndex === 4){
+//   alert(daysOfTheWeek[useableIndex])
+// }else if(useableIndex === 5){
+//   alert(daysOfTheWeek[useableIndex])
+// }else if(useableIndex === 6){
+//   alert(daysOfTheWeek[useableIndex])
+// }
 
 
   
