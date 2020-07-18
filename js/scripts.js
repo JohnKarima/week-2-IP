@@ -9,11 +9,18 @@ function addMachine(){
   var cc = parseInt(year.slice(0,2));
   var yy = parseInt(year.slice(2,4));
 
-  alert(cc)
-  alert(yy)
+  if (day<1 || day > 31){
+    alert("Invalid Date")
+  }if (month <1 || month > 12){
+    alert("Invalid Month")}
+  }
+  
+
+  // alert(cc)
+  // alert(yy)
 
 
-}
+
 
 
   // (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
