@@ -4,15 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akan Calculator</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <!-- <link rel="stylesheet" href="/css/bootstrap.css"> -->
 </head>
 <body>
   <form>
-    <label for="number1">Num1</label><br>
-    <input type="number" id="num1" name="number1" value="John"><br>
-    <label for="number2">Num2:</label><br>
-    <input type="number" id="num2" name="number2" value="Doe"><br><br>
-    <input type="submit" value="Submit">
-  </form> 
+    <div class="form-group">
+      <label for="number1">Number1:</label>
+      <input type="number" class="form-control" id="num1">
+    </div>
+    <div class="form-group">
+      <label for="number2">NUmber2:</label>
+      <input type="number" class="form-control" id="num2">
+    </div>
+    <button type="submit" class="btn btn-default" onclick="addMachine()">Submit</button>
+  </form>
   <script src="/js/scripts.js"></script>
 </body>
 </html>
