@@ -16,8 +16,6 @@ function addMachine(){
   
   
 
-  // alert(cc)
-  // alert(yy)
 
 
 
@@ -27,9 +25,3 @@ function addMachine(){
 
   alert(dayOfWeek);
   }
-  //alert(year + month + day)}
-
-//   var answerCalc = numero1 + numero2;
-//   alert(answerCalc);
-// 
-
