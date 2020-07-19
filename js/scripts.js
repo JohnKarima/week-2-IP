@@ -39,62 +39,48 @@ function zeller() {
   switch (gender) {
     case "male":
       if (key == 0) {
-        alert(akanMale[key])
-        alert(daysOfTheWeek[key])
+        alert("Your Akan name is " + akanMale[key] + " and you were born on a " + daysOfTheWeek[key] + "!")
       }
       else if (key == 1) {
-        alert(akanMale[key])
-        alert(daysOfTheWeek[key])
+        alert("Your Akan name is " + akanMale[key] + " and you were born on a " + daysOfTheWeek[key] + "!")
       }
       else if (key == 2) {
-        alert(akanMale[key])
-        alert(daysOfTheWeek[key])
+        alert("Your Akan name is " + akanMale[key] + " and you were born on a " + daysOfTheWeek[key] + "!")
       }
       else if (key == 3) {
-        alert(akanMale[key])
-        alert(daysOfTheWeek[key])
+        alert("Your Akan name is " + akanMale[key] + " and you were born on a " + daysOfTheWeek[key] + "!")
       }
       else if (key == 4) {
-        alert(akanMale[key])
-        alert(daysOfTheWeek[key])
+        alert("Your Akan name is " + akanMale[key] + " and you were born on a " + daysOfTheWeek[key] + "!")
       }
       else if (key == 5) {
-        alert(akanMale[key])
-        alert(daysOfTheWeek[key])
+        alert("Your Akan name is " + akanMale[key] + " and you were born on a " + daysOfTheWeek[key] + "!")
       }
       else if (key == 6) {
-        alert(akanMale[key])
-        alert(daysOfTheWeek[key])
+        alert("Your Akan name is " + akanMale[key] + " and you were born on a " + daysOfTheWeek[key] + "!")
       }
       break;
     case "female":
       if (key == 0) {
-        alert(akanFemale[key])
-        alert(daysOfTheWeek[key])
+        alert("Your Akan name is " + akanFemale[key] + " and you were born on a " + daysOfTheWeek[key] + "!")
       }
       else if (key == 1) {
-        alert(akanFemale[key])
-        alert(daysOfTheWeek[key])
+        alert("Your Akan name is " + akanFemale[key] + " and you were born on a " + daysOfTheWeek[key] + "!")
       }
       else if (key == 2) {
-        alert(akanFemale[key])
-        alert(daysOfTheWeek[key])
+        alert("Your Akan name is " + akanFemale[key] + " and you were born on a " + daysOfTheWeek[key] + "!")
       }
       else if (key == 3) {
-        alert(akanFemale[key])
-        alert(daysOfTheWeek[key])
+        alert("Your Akan name is " + akanFemale[key] + " and you were born on a " + daysOfTheWeek[key] + "!")
       }
       else if (key == 4) {
-        alert(akanFemale[key])
-        alert(daysOfTheWeek[key])
+        alert("Your Akan name is " + akanFemale[key] + " and you were born on a " + daysOfTheWeek[key] + "!")
       }
       else if (key == 5) {
-        alert(akanFemale[key])
-        alert(daysOfTheWeek[key])
+        alert("Your Akan name is " + akanFemale[key] + " and you were born on a " + daysOfTheWeek[key] + "!")
       }
       else if (key == 6) {
-        alert(akanFemale[key])
-        alert(daysOfTheWeek[key])
+        alert("Your Akan name is " + akanFemale[key] + " and you were born on a " + daysOfTheWeek[key] + "!")
       }
       break
     default:

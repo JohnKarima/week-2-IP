@@ -2,8 +2,9 @@ body h1{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   text-decoration: underline;
-  font-size: 360%;
+  font-size: 350%;
   color: rgb(48, 17, 4);
+  font-weight: bold;
 }
 body h2{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -11,7 +12,6 @@ body h2{
   font-size: 290%;
   font-style: italic;
   color: rgb(61, 20, 3);
-  font-weight: bold;
 }
 body p{
   font-size: 200%;
