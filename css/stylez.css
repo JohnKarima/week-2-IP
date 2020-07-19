@@ -2,25 +2,26 @@ body h1{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   text-decoration: underline;
-  font-size: 350%;
-  color: rgb(48, 17, 4);
+  font-size: 260%;
+  color: rgb(39, 13, 2);
   font-weight: bold;
 }
 body h2{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
-  font-size: 290%;
+  font-size: 200%;
   font-style: italic;
-  color: rgb(61, 20, 3);
+  color: rgb(56, 19, 3);
 }
 body p{
-  font-size: 200%;
+  font-size: 170%;
   color: rgb(0, 0, 0);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .form-group, .genderq{
-  font-size: 170%;
+  font-size: 140%;
   color: rgb(0, 0, 0);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body {
   background-image: url("../images/kidsLoads.jpeg");
@@ -33,7 +34,7 @@ body {
   position: absolute;
   right: 0;
   margin: 0;
-  max-width: 60%;
+  max-width: 38%;
   padding: 25px;
   background-color: rgba(83, 122, 69, 0.9);
   max-height: inherit;
