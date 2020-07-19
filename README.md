@@ -22,6 +22,9 @@ $ code .
 ```
 - Run the project on Live Server
 
+## Link to Live Project
+https://johnkarima.github.io/week-2-IP/
+
 ## BDD
 - The project should validate and accept user input.
 - It should pass the validated input into Zeller's congruence.
