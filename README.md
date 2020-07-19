@@ -33,9 +33,6 @@ https://johnkarima.github.io/week-2-IP/
 ## Technologies Used
 Zeller's congruence, an algorithm by Christian Zeller to calculate the day of the week for any Julian or Gregorian calendar date. It can be used to determine the day of the week for any date in the past, present or future, for any dates between 1582 and 4902.
 
-## Link to live project 
-TBD
-
 ## Contact Information
 karimajohn24@gmail.com
 
