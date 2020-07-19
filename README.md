@@ -10,7 +10,7 @@ A project consisting of an Akan calculator which takes in a date input and retur
 ## Setup Instructions 
 - Clone the repository 
 ```
-$ git clone Week-1-IP
+$ git clone Week-2-IP
 ```
 - Move into directory 
 ```
