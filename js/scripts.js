@@ -5,29 +5,29 @@ var key;
 
 function zeller() {
   var year = parseInt(document.getElementById("year").value);
-  if (year < 1582 || year > 4902){
+  if (year < 1582 || year > 4902) {
     alert("Please fill in a valid year to continue")
-    return(false)
-    }else if (year > 1581 && year < 4903){
-      var yearAuth = year;
-    }
+    return (false)
+  } else if (year > 1581 && year < 4903) {
+    var yearAuth = year;
+  }
   var month = parseInt(document.getElementById("month").value);
-  if (month < 1 || month > 12){
+  if (month < 1 || month > 12) {
     alert("Please fill in a valid month to continue")
-    return(false)
-    }else if (month > 0 && month < 13){
-      var monthAuth = month;
-    }
-    var day = parseInt(document.getElementById("day").value);
-  if (day < 1 || day > 31){
+    return (false)
+  } else if (month > 0 && month < 13) {
+    var monthAuth = month;
+  }
+  var day = parseInt(document.getElementById("day").value);
+  if (day < 1 || day > 31) {
     alert("Please fill in a valid day to continue")
-    return(false)
-    }else if (day > 0 && day < 32){
-      var dayAuth = day;
-    }
+    return (false)
+  } else if (day > 0 && day < 32) {
+    var dayAuth = day;
+  }
 
-    if (monthAuth < 3) {
-      monthAuth += 12; yearAuth -= 1;
+  if (monthAuth < 3) {
+    monthAuth += 12; yearAuth -= 1;
   }
   var h = (dayAuth + parseInt(((monthAuth + 1) * 26) / 10) +
     yearAuth + parseInt(yearAuth / 4) + 6 * parseInt(yearAuth / 100) +
@@ -98,6 +98,5 @@ function zeller() {
       }
       break
     default:
-
   }
 }

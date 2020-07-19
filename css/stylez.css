@@ -1,57 +1,42 @@
-
 body h1{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
   text-decoration: underline;
   font-size: 360%;
-  color: rgb(61, 20, 3);
-
+  color: rgb(48, 17, 4);
 }
-
 body h2{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
-  font-size: 270%;
+  font-size: 290%;
   font-style: italic;
-  color: rgb(82, 27, 6);
-
-
+  color: rgb(61, 20, 3);
+  font-weight: bold;
 }
 body p{
   font-size: 200%;
   color: rgb(0, 0, 0);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-.form-group{
+.form-group, .genderq{
   font-size: 170%;
-
+  color: rgb(0, 0, 0);
 }
-
-.genderq{
-  font-size: 170%;
-
-}
-
 body {
-
-  background-image: url("/images/kidsLoads.jpeg");
+  background-image: url("../images/kidsLoads.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
 }
-
-.backgroundChill{
-  color: black;
-}
 .container {
   position: absolute;
   right: 0;
   margin: 0;
-  max-width: 600px;
-  padding: 16px;
+  max-width: 60%;
+  padding: 25px;
   background-color: rgba(83, 122, 69, 0.9);
+  max-height: inherit;
 }
 input[type=number] {
   width: 100%;
@@ -60,24 +45,19 @@ input[type=number] {
   border: none;
   background: #f1f1f1;
 }
-
 input[type=number]:focus {
   background-color: #ddd;
   outline: none;
 }
-.buttonq {
-  background-color: #4CAF50;;
+.btn {
+  background-color: #37b13c;
   color: white;
   padding: 16px 20px;
   border: none;
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
-  text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
 }
-
 .btn:hover {
   opacity: 1;
 }
