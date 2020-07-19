@@ -2,6 +2,7 @@ var daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Fr
 var akanMale = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
 var akanFemale = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
 var key;
+
 function zeller() {
   var year = parseInt(document.getElementById("year").value);
   var month = parseInt(document.getElementById("month").value);
